@@ -1,16 +1,10 @@
-﻿using System;
-using System.Data.SQLite;
-using System.Threading.Channels;
-using BusinessLogicLayer;
-using DatabaseLayer;
-
-namespace Startup;
+﻿namespace Startup;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        AccountService accountService = new AccountService();
-        Console.WriteLine($"{accountService.SignIn()}");
+        Console.InputEncoding = System.Text.Encoding.Unicode;
+        Console.OutputEncoding = System.Text.Encoding.Unicode;
     }
 }

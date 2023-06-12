@@ -1,10 +1,10 @@
-﻿namespace BusinessLogicLayer;
+﻿namespace BusinessLogicLayer.Service;
 
 public static class Validation
 {
     public static string StringValidation(string text = null)
     {
-        if(!string.IsNullOrEmpty(text))
+        if (!string.IsNullOrEmpty(text))
         {
             Console.WriteLine($"Enter {text}");
         }

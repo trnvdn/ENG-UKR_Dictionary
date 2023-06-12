@@ -1,4 +1,4 @@
-﻿namespace BusinessLogicLayer;
+﻿namespace BusinessLogicLayer.Service;
 
 public static class Encrypting
 {
@@ -11,7 +11,7 @@ public static class Encrypting
         { "8", 34 }, { "9", 35 }, { "0", 36 },{" ",37},{"_",38}
     };
 
-    public static string Encrypt(string password,int pin )
+    public static string Encrypt(string password, int pin)
     {
         var encryptedPassword = "";
         var nums = new List<int>();
@@ -23,11 +23,11 @@ public static class Encrypting
         foreach (var letter in letters)
         {
             alphabet.TryGetValue(letter, out int value);
-            nums.Add(value*pin);
+            nums.Add(value * pin);
         }
         foreach (var num in nums)
         {
-            encryptedPassword += alphabet.FirstOrDefault(x=>x.Value == num%38).Key;
+            encryptedPassword += alphabet.FirstOrDefault(x => x.Value == num % 38).Key;
         }
 
         return encryptedPassword;
