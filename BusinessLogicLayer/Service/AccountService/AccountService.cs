@@ -1,13 +1,13 @@
-﻿using System;
-using DatabaseLayer;
+﻿using DatabaseLayer;
 
-namespace BusinessLogicLayer;
+namespace BusinessLogicLayer.Service;
 
 public class AccountService
 {
     public Account CurrentAccount { get; internal set; }
-    private AccountRepository _accountRepository;    
-    
+
+    private AccountRepository _accountRepository;
+
     public AccountService()
     {
         _accountRepository = new AccountRepository();
@@ -27,33 +27,34 @@ public class AccountService
         _accountRepository.Insert(account);
     }
 
-    public bool SignIn()
+    public Account? SignIn()
     {
         var login = Validation.StringValidation("login");
         var password = Validation.StringValidation("password");
-        var pin = _accountRepository.GetPin(login);
+        int? pin = _accountRepository.GetPin(login);
         if (pin == null)
         {
-            return false;
+            return null;
         }
         var account = new Account()
         {
             Login = login,
-            Password = Encrypting.Encrypt(password, pin),
-            PIN = pin
+            Password = Encrypting.Encrypt(password, pin.Value),
+            PIN = pin.Value
         };
         var data = _accountRepository.Retrieve(account);
-        
+
         if (data != null)
         {
             CurrentAccount = data;
-            return true;
+            return data;
         }
         else
         {
-            return false;
+            return null;
         }
     }
+
     private string setLogin()
     {
         string login = Validation.StringValidation("login");

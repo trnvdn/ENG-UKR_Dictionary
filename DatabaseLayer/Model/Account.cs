@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DatabaseLayer;
+﻿namespace DatabaseLayer;
 
 public class Account
 {
@@ -9,7 +7,7 @@ public class Account
     public string Password { get; set; }
     public int PIN { get; set; }
     
-    private List<Word> Words = new List<Word>();
+    public List<Word> Words = new List<Word>();
 
     public Account()
     {

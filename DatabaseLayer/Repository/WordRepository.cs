@@ -27,7 +27,7 @@ public class WordRepository
         using (var connection = new SQLiteConnection(DatabaseManager.ConnectionString))
         {
             connection.Open();
-            var rowsAffected = connection.Execute("INSERT INTO Word (ENG, UKR, Level) VALUES (@ENG, @UKR, @Level)", word);
+            var rowsAffected = connection.Execute("INSERT INTO Word (ENG, UKR, Level, AcountID) VALUES (@ENG, @UKR, @Level, @AcountID)", word);
             return rowsAffected == 1;
         }
     }
