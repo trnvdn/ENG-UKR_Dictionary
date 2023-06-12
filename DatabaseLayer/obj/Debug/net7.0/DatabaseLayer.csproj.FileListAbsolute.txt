@@ -1,0 +1,14 @@
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.csproj.AssemblyReference.cache
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.AssemblyInfoInputs.cache
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.AssemblyInfo.cs
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.csproj.CoreCompileInputs.cache
+D:\CS_Proj\Tr4nslator\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.deps.json
+D:\CS_Proj\Tr4nslator\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.runtimeconfig.json
+D:\CS_Proj\Tr4nslator\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.dll
+D:\CS_Proj\Tr4nslator\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.pdb
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.dll
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\refint\DatabaseLayer.dll
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.pdb
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.genruntimeconfig.cache
+D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\ref\DatabaseLayer.dll
