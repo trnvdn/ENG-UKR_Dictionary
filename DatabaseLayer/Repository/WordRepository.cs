@@ -13,12 +13,22 @@ public class WordRepository
             return result;
         }
     }
-    public List<Word> Retrieve(string word)
+    public List<Word> Retrieve(string word,string accountID)
     {
         using (var connection = new SQLiteConnection(DatabaseManager.ConnectionString))
         {
             connection.Open();
-            var result = connection.Query<Word>("SELECT * FROM Word WHERE ENG = @word OR UKR = @word", new { word }).AsList();
+            var result = connection.Query<Word>("SELECT * FROM Word WHERE (ENG = @word OR UKR = @word) and AccountID = @accountID", new { word,accountID }).AsList();
+            return result;
+        }
+    }
+
+    public List<Word> Retrieve(string accountID)
+    {
+        using (var connection = new SQLiteConnection(DatabaseManager.ConnectionString))
+        {
+            connection.Open();
+            var result = connection.Query<Word>("SELECT * FROM Word WHERE AccountID = @accountID", new { accountID }).AsList();
             return result;
         }
     }
@@ -27,7 +37,7 @@ public class WordRepository
         using (var connection = new SQLiteConnection(DatabaseManager.ConnectionString))
         {
             connection.Open();
-            var rowsAffected = connection.Execute("INSERT INTO Word (ENG, UKR, Level, AcountID) VALUES (@ENG, @UKR, @Level, @AcountID)", word);
+            var rowsAffected = connection.Execute("INSERT INTO Word (ENG, UKR, Level, AccountID) VALUES (@ENG, @UKR, @Level, @AccountID)", word);
             return rowsAffected == 1;
         }
     }

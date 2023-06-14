@@ -6,11 +6,12 @@ public class Account
     public string Login { get; set; }
     public string Password { get; set; }
     public int PIN { get; set; }
-    
-    public List<Word> Words = new List<Word>();
 
+    public int LearnedWords { get; set; }
+    
     public Account()
     {
         ID = Guid.NewGuid().ToString();
+        LearnedWords = 0;
     }
 }
