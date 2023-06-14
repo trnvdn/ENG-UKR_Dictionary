@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YHhU5qANrk4jB0T+CcjVOIvIsSk00UCypEc7Tbstzzx7LtVGC1O9PgyXPlXoo3e7LjhiXuOIozj05SH8Cn9Zrg==",
+  "dgSpecHash": "RDBPI3/UJqwbH5e0WFhRdZzV8F/zCGOmvuPS784mm3LmgHhWgbD6UJupyRUV4S2je8qi4sifG072FNGjXZHwKA==",
   "success": true,
-  "projectFilePath": "D:\\CS_Proj\\Tr4nslator\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+  "projectFilePath": "D:\\ENG-UKR_Dictionary\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\terna\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\terna\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

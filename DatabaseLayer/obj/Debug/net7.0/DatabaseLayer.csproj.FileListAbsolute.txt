@@ -12,3 +12,17 @@ D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\refint\DatabaseLayer.dll
 D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.pdb
 D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.genruntimeconfig.cache
 D:\CS_Proj\Tr4nslator\DatabaseLayer\obj\Debug\net7.0\ref\DatabaseLayer.dll
+D:\ENG-UKR_Dictionary\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.deps.json
+D:\ENG-UKR_Dictionary\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.runtimeconfig.json
+D:\ENG-UKR_Dictionary\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.dll
+D:\ENG-UKR_Dictionary\DatabaseLayer\bin\Debug\net7.0\DatabaseLayer.pdb
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.csproj.AssemblyReference.cache
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.AssemblyInfoInputs.cache
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.AssemblyInfo.cs
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.csproj.CoreCompileInputs.cache
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.dll
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\refint\DatabaseLayer.dll
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.pdb
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\DatabaseLayer.genruntimeconfig.cache
+D:\ENG-UKR_Dictionary\DatabaseLayer\obj\Debug\net7.0\ref\DatabaseLayer.dll

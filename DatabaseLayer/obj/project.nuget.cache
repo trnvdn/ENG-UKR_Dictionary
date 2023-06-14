@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VZX444PiPKlM6jYlC7JJf7Wa2eVEastnkFHL+/gI2aDFtIImIV605iSiaefCGyvsXqbgUOPadbJwEop83AmZrA==",
+  "dgSpecHash": "FSKpLV4os1arWgmmS7/t87aLd0LS/f2qsGsJGKCZfrLyWoGut3XSg0EM73lavBo9v0qR2JmkU++8ZqTFm1MC3Q==",
   "success": true,
-  "projectFilePath": "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\DatabaseLayer.csproj",
+  "projectFilePath": "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\DatabaseLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\terna\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\terna\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

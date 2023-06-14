@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "Busin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseLayer", "DatabaseLayer\DatabaseLayer.csproj", "{36071EAD-CAC2-4653-A8F5-3E80C6241E61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Startup", "Startup\Startup.csproj", "{C530D8C0-DF01-401C-9CA1-739CE9CF0056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunProgram", "RunProgram\RunProgram.csproj", "{C530D8C0-DF01-401C-9CA1-739CE9CF0056}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

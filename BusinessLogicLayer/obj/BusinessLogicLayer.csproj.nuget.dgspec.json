@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CS_Proj\\Tr4nslator\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {}
+    "D:\\ENG-UKR_Dictionary\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {}
   },
   "projects": {
-    "D:\\CS_Proj\\Tr4nslator\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+    "D:\\ENG-UKR_Dictionary\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CS_Proj\\Tr4nslator\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectUniqueName": "D:\\ENG-UKR_Dictionary\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "projectName": "BusinessLogicLayer",
-        "projectPath": "D:\\CS_Proj\\Tr4nslator\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectPath": "D:\\ENG-UKR_Dictionary\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\terna\\.nuget\\packages\\",
-        "outputPath": "D:\\CS_Proj\\Tr4nslator\\BusinessLogicLayer\\obj\\",
+        "outputPath": "D:\\ENG-UKR_Dictionary\\BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\DatabaseLayer.csproj": {
-                "projectPath": "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\DatabaseLayer.csproj"
+              "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\DatabaseLayer.csproj": {
+                "projectPath": "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\DatabaseLayer.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\DatabaseLayer.csproj": {
+    "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\DatabaseLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\DatabaseLayer.csproj",
+        "projectUniqueName": "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\DatabaseLayer.csproj",
         "projectName": "DatabaseLayer",
-        "projectPath": "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\DatabaseLayer.csproj",
+        "projectPath": "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\DatabaseLayer.csproj",
         "packagesPath": "C:\\Users\\terna\\.nuget\\packages\\",
-        "outputPath": "D:\\CS_Proj\\Tr4nslator\\DatabaseLayer\\obj\\",
+        "outputPath": "D:\\ENG-UKR_Dictionary\\DatabaseLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
