@@ -16,6 +16,7 @@ internal class AccountHandler
         {
             Console.WriteLine("1. Account stats\n2. Back to previous menu");
             var choise = Validation.IntValidation();
+            Console.Clear();
             switch (choise)
             {
                 case 1:

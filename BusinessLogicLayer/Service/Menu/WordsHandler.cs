@@ -19,6 +19,7 @@ internal class WordsHandler
         {
             Console.WriteLine("1. Add new word\n2. Print all words in dictionary\n3. Back to previous menu");
             var choise = Validation.IntValidation();
+            Console.Clear();
             switch (choise)
             {
                 case 1:
