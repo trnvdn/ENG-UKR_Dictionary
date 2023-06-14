@@ -2,18 +2,18 @@
 
 namespace BusinessLogicLayer.Service;
 
-public class AccountService
+internal class AccountLogInService
 {
     public Account CurrentAccount { get; internal set; }
 
     private AccountRepository _accountRepository;
 
-    public AccountService()
+    public AccountLogInService()
     {
         _accountRepository = new AccountRepository();
     }
 
-    public void Register()
+    public Account Register()
     {
         var login = setLogin();
         var password = setPassword();
@@ -25,6 +25,7 @@ public class AccountService
             PIN = pin
         };
         _accountRepository.Insert(account);
+        return account;
     }
 
     public Account? SignIn()
@@ -58,7 +59,7 @@ public class AccountService
     private string setLogin()
     {
         string login = Validation.StringValidation("login");
-        while (_accountRepository.Retrieve(login) != null)
+        while (_accountRepository.IsAccountExists(login) == true)
         {
             Console.WriteLine("Login already exists");
             login = Validation.StringValidation("login");

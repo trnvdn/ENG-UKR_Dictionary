@@ -1,4 +1,6 @@
-﻿namespace Startup;
+﻿using BusinessLogicLayer.Service;
+
+namespace Startup;
 
 class Program
 {
@@ -6,5 +8,7 @@ class Program
     {
         Console.InputEncoding = System.Text.Encoding.Unicode;
         Console.OutputEncoding = System.Text.Encoding.Unicode;
+        var menu = new MenuHandler();
+        menu.Start();
     }
 }

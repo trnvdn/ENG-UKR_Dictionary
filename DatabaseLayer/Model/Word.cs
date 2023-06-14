@@ -10,5 +10,5 @@ public class Word
     
     public int Level { get; set; }
 
-    public string AcountID { get; set; }
+    public string AccountID { get; set; }
 }

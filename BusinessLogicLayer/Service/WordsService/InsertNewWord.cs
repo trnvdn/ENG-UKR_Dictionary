@@ -4,28 +4,31 @@ using System.Text.RegularExpressions;
 
 namespace BusinessLogicLayer;
 
-public class Dictionary
+internal class InsertNewWord
 {
     Account _account;
     public Word _word { get; internal set; }
     private WordRepository _wordRepository;
+    private AccountRepository _accountRepository;
 
-    public Dictionary(Account account)
+    public InsertNewWord(Account account)
     {
+        _accountRepository = new AccountRepository();
         _wordRepository = new WordRepository();
         _word = new Word();
         _account = account;
     }
 
 
-    public void AddNewWord()
+    internal void AddNewWord()
     {
-        _word.AcountID = _account.ID;
+        _word.AccountID = _account.ID;
         _word.ENG = eng();
         _word.UKR = ukr();
         _word.Level = levelOfWord(_word.ENG);
         _wordRepository.Insert(_word);
-        _account.Words.Add(_word);
+        _account.LearnedWords += 1;
+        _accountRepository.Update(_account);
     }
 
     private string eng()
@@ -57,7 +60,7 @@ public class Dictionary
 
         return isEnglish;
     }
-    public static bool IsUkrainianText(string text)
+    private static bool IsUkrainianText(string text)
     {
         string cleanedText = new string(text.Where(c => !char.IsPunctuation(c) && !char.IsWhiteSpace(c)).ToArray());
 
